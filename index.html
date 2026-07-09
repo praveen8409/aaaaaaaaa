@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | O G Powers (IND) Pvt Ltd - Trusted Solar Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .slider-img { display: none; }
+    .slider-img.active { display: block; }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.5; }
+      100% { transform: scale(1.2); opacity: 0; }
+    }
+    .call-pulse { animation: pulse-ring 2s infinite; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-emerald-400">Home</a>
+        <a href="services.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Solar Solutions</a>
+        <a href="portfolio.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Completed Projects</a>
+        <a href="partner.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Become a Dealer</a>
+        <a href="contact.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-md">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    
+    <!-- HERO SECTION WITH COMMERCIAL BUSINESS FOCUS -->
+    <div class="relative bg-slate-900 text-white py-20 px-6 text-center overflow-hidden">
+      <div class="relative max-w-5xl mx-auto z-10">
+        <span class="bg-emerald-500/10 text-emerald-400 text-xs font-bold px-4 py-2 rounded-full border border-emerald-500/20 uppercase tracking-widest mb-4 inline-block">
+          <i class="fa-solid fa-circle-check mr-1"></i> Govt. Approved Real Subsidy Vendor
+        </span>
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight mt-2 mb-6 leading-tight">
+          Atta Chakki, Dukaan, Aur Ghar Ke Liye <br class="hidden md:inline"/>
+          <span class="text-emerald-400">No.1 Trusted Solar Solutions</span>
+        </h1>
+        <p class="text-base md:text-xl text-slate-300 mb-8 max-w-3xl mx-auto font-medium">
+          Save lakhs on electricity bills! High-performance solar infrastructure custom-built for high-power Atta Chakki Mills, multi-tier retail shops, cold storages, and individual homes across Bihar & Jharkhand.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <a href="#quickCallSection" class="w-full sm:w-auto bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-8 py-4 rounded-xl transition-all text-lg flex items-center justify-center gap-2 shadow-lg">
+            <i class="fa-solid fa-phone-volume animate-bounce"></i> Request a Call Back (फ्री कॉल बुक करें)
+          </a>
+          <a href="services.html" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-semibold px-8 py-4 rounded-xl transition-all text-base border border-slate-700">
+            View System Plans
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRUST, TRANSPARENCY & STATS ACHIEVEMENTS BANNER -->
+    <div class="bg-emerald-50 border-b border-emerald-200 py-8">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-2">
+          <p class="text-2xl md:text-4xl font-black text-slate-900">100% Genuine</p>
+          <p class="text-xs md:text-sm text-slate-600 font-semibold mt-1">No Fake Claims or Fraud Portals</p>
+        </div>
+        <div class="p-2 border-l border-emerald-200">
+          <p class="text-2xl md:text-4xl font-black text-emerald-600">5-Year Warranty</p>
+          <p class="text-xs md:text-sm text-slate-600 font-semibold mt-1">Complete Free Home Service</p>
+        </div>
+        <div class="p-2 border-l border-emerald-200">
+          <p class="text-2xl md:text-4xl font-black text-slate-900">Loom Solar</p>
+          <p class="text-xs md:text-sm text-slate-600 font-semibold mt-1">Authorized Brand Partner</p>
+        </div>
+        <div class="p-2 border-l border-emerald-200">
+          <p class="text-2xl md:text-4xl font-black text-emerald-600">Verified Subsidy</p>
+          <p class="text-xs md:text-sm text-slate-600 font-semibold mt-1">Direct Bank Account Transfer</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EASY 1-CLICK CALL BACK BOOKING (ACCESSIBLE FOR ALL USERS) -->
+    <div id="quickCallSection" class="bg-amber-400 py-10 px-4 border-b border-amber-500">
+      <div class="max-w-4xl mx-auto text-slate-950 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex items-center gap-4">
+          <div class="relative w-16 h-16 bg-slate-900 text-amber-400 rounded-full flex items-center justify-center text-2xl flex-shrink-0 shadow-lg">
+            <div class="absolute inset-0 rounded-full bg-slate-900 call-pulse"></div>
+            <i class="fa-solid fa-phone-flip relative z-10 animate-pulse"></i>
+          </div>
+          <div>
+            <h2 class="text-xl md:text-2xl font-black">Sirf Apna Mobile Number Likhein!</h2>
+            <p class="text-sm font-bold text-slate-800">Our senior engineer will call you directly in 1 hour to guide you.</p>
+          </div>
+        </div>
+        <form onsubmit="alert('Aapka number save ho gaya hai. Hum jaldi call karenge!'); event.preventDefault();" class="w-full md:w-auto flex flex-col sm:flex-row gap-2 flex-grow max-w-md">
+          <input type="tel" pattern="[0-9]{10}" required placeholder="अपना 10-अंकों का मोबाइल नंबर डालें" class="bg-white text-slate-900 px-4 py-3.5 rounded-xl font-bold text-base focus:outline-none flex-grow border-2 border-slate-900" />
+          <button type="submit" class="bg-slate-900 hover:bg-slate-800 text-white font-extrabold px-6 py-3.5 rounded-xl text-sm uppercase tracking-wide transition-colors whitespace-nowrap shadow-md">
+            Call Book Karen
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- DYNAMIC TRUST & STRENGTH VISUAL SLIDER HERO -->
+    <div class="bg-slate-900 text-white py-16 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-10">
+          <h2 class="text-2xl md:text-4xl font-black">Why Businesses Choose O G Powers Over Competitors</h2>
+          <p class="text-slate-400 text-sm md:text-base mt-2">Complete structural transparency, verified physical warehouse inventory, and strong local field support.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+          <!-- Slider Media Screen Area -->
+          <div class="md:col-span-6 relative rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800 aspect-video bg-slate-950">
+            <!-- Slide 1: Atta Chakki Core Focus -->
+            <div class="slider-img active" id="slide-0">
+              <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRdUskjYSbcOUElOiqbDlMC3EUFxUrRweJ2ArgR4r9PCNplr0XTz68H4nWv5l0-fgUaUD2A-LMzCwF1ZS8" class="w-full h-full object-cover opacity-80" alt="Atta Chakki Solar Setup" />
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 to-transparent p-6 pt-12">
+                <span class="bg-emerald-500 text-slate-950 font-extrabold text-[10px] uppercase px-2 py-0.5 rounded">Slide 1: High Load Production</span>
+                <h4 class="text-lg font-bold text-white mt-1">High-Voltage Atta Chakki Installations</h4>
+              </div>
+            </div>
+            <!-- Slide 2: Warehouse Stock Proof -->
+            <div class="slider-img" id="slide-1">
+              <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQgTYS2zsSa4buiKQI3aa8_aiPHg7GhJV4G0SUbgKcCxzP4mXz1k0R79zK4fUgs_fTe2RYlbP4maJOWWU0" class="w-full h-full object-cover opacity-80" alt="Warehouse Stock Real Assets" />
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 to-transparent p-6 pt-12">
+                <span class="bg-emerald-500 text-slate-950 font-extrabold text-[10px] uppercase px-2 py-0.5 rounded">Slide 2: 100% Genuine Stock</span>
+                <h4 class="text-lg font-bold text-white mt-1">Direct Warehouse Physical Logistics Inventory</h4>
+              </div>
+            </div>
+            <!-- Slide 3: Commercial Shop Power -->
+            <div class="slider-img" id="slide-2">
+              <div class="bg-slate-800 w-full h-full flex flex-col justify-center p-8 border border-slate-700">
+                <i class="fa-solid fa-shield-halved text-5xl text-emerald-400 mb-4"></i>
+                <h4 class="text-xl font-bold text-white">No-Fraud Legal Procurement Guarantee</h4>
+                <p class="text-xs text-slate-400 mt-1 leading-relaxed">Every individual module code is recorded under clean regulatory logs. Full assurance against local duplicate tracking frameworks or false claims.</p>
+              </div>
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 to-transparent p-4">
+                <span class="bg-emerald-500 text-slate-950 font-extrabold text-[10px] uppercase px-2 py-0.5 rounded">Slide 3: Transparency</span>
+              </div>
+            </div>
+            <!-- Slide 4: On-Site Home Warranty Service -->
+            <div class="slider-img" id="slide-3">
+              <div class="bg-slate-800 w-full h-full flex flex-col justify-center p-8 border border-slate-700">
+                <i class="fa-solid fa-house-laptop text-5xl text-amber-400 mb-4"></i>
+                <h4 class="text-xl font-bold text-white">Doorstep Home Technical Service</h4>
+                <p class="text-xs text-slate-400 mt-1 leading-relaxed">No need to travel for maintenance. Our engineering teams visit your property across Bihar and Jharkhand directly to solve technical issues.</p>
+              </div>
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 to-transparent p-4">
+                <span class="bg-emerald-500 text-slate-950 font-extrabold text-[10px] uppercase px-2 py-0.5 rounded">Slide 4: Free Support</span>
+              </div>
+            </div>
+            <!-- Slide 5: Real Material Components -->
+            <div class="slider-img" id="slide-4">
+              <div class="bg-slate-800 w-full h-full flex flex-col justify-center p-8 border border-slate-700">
+                <i class="fa-solid fa-handshake-angle text-5xl text-emerald-400 mb-4"></i>
+                <h4 class="text-xl font-bold text-white">Dedicated Post-Delivery Desk</h4>
+                <p class="text-xs text-slate-400 mt-1 leading-relaxed">Continuous technical performance tuning for net-meters and generation arrays post-deployment.</p>
+              </div>
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 to-transparent p-4">
+                <span class="bg-emerald-500 text-slate-950 font-extrabold text-[10px] uppercase px-2 py-0.5 rounded">Slide 5: After Sales</span>
+              </div>
+            </div>
+
+            <!-- Slide Navigation Toggle Handles -->
+            <div class="absolute top-1/2 -translate-y-1/2 left-3 z-20">
+              <button onclick="prevSlide()" class="w-8 h-8 bg-slate-900/80 rounded-full flex items-center justify-center border border-slate-700 text-sm"><i class="fa-solid fa-chevron-left"></i></button>
+            </div>
+            <div class="absolute top-1/2 -translate-y-1/2 right-3 z-20">
+              <button onclick="nextSlide()" class="w-8 h-8 bg-slate-900/80 rounded-full flex items-center justify-center border border-slate-700 text-sm"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+
+          <!-- Feature Description List Grid -->
+          <div class="md:col-span-6 space-y-4">
+            <div class="p-4 bg-slate-850 rounded-xl border border-slate-800 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-lg flex-shrink-0"><i class="fa-solid fa-check-double"></i></div>
+              <div>
+                <h3 class="text-base font-bold text-white">Strict Transparency vs Unorganized Vendors</h3>
+                <p class="text-xs text-slate-400 mt-0.5 leading-relaxed">Unlike local independent contractors, we process your paperwork cleanly under registered corporate structures. Zero hidden pricing variables.</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-850 rounded-xl border border-slate-800 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-lg flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
+              <div>
+                <h3 class="text-base font-bold text-white">Physical In-House Material Verification</h3>
+                <p class="text-xs text-slate-400 mt-0.5 leading-relaxed">We maintain authorized product inventory distribution pipelines. Customers are welcome to verify physical inventory tracking sheets anytime.</p>
+              </div>
+            </div>
+            <div class="p-4 bg-slate-850 rounded-xl border border-slate-800 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-lg bg-emerald-50/10 text-emerald-400 flex items-center justify-center text-lg flex-shrink-0"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <div>
+                <h3 class="text-base font-bold text-white">5-Year Structural Home Warranty Protection</h3>
+                <p class="text-xs text-slate-400 mt-0.5 leading-relaxed">Comprehensive maintenance parameters deployed directly to your physical address. Rest assured knowing expert support handles configuration tuneups locally.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- REGIONAL FOOTPRINT SECTION -->
+    <div class="bg-white border-b border-slate-200 py-16">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
+          <div class="w-12 h-12 bg-emerald-100 text-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl"><i class="fa-solid fa-map-location-dot"></i></div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Bihar & Jharkhand</h3>
+          <p class="text-sm text-slate-600">Full operations, localized logistics dispatch, and on-ground technical engineering teams across Gaya, Patna, Ranchi, and more.</p>
+        </div>
+        <div class="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center">
+          <div class="w-12 h-12 bg-amber-100 text-amber-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Govt Subsidies Handled</h3>
+          <p class="text-sm text-slate-600">Complete application management via regional DISCOM structures (SBPDCL, NBPDCL, JBVNL) seamlessly processed.</p>
+        </div>
+        <div class="bg-slate-50 p-6 rounded-xl border border-emerald-200 text-center relative overflow-hidden">
+          <span class="absolute top-0 right-0 bg-emerald-400 text-slate-950 font-extrabold text-[9px] uppercase tracking-widest px-2.5 py-0.5 rounded-bl">Expansion</span>
+          <div class="w-12 h-12 bg-emerald-100 text-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4 text-xl"><i class="fa-solid fa-chart-line"></i></div>
+          <h3 class="text-lg font-bold text-emerald-500 mb-2">Upcoming Territory</h3>
+          <p class="text-sm text-slate-600">Strategic network framework expansion building structural sales channels into nearby neighboring states soon.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <div>
+        <p class="font-bold text-slate-300">&copy; 2026 O G Powers (IND) Pvt Ltd. All Rights Reserved.</p>
+      </div>
+      <div class="flex space-x-4 text-base">
+        <a href="https://www.facebook.com/profile.php?id=100075930146756" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@ogpowers9386" target="_blank" class="hover:text-red-500"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SLIDER SYSTEM CONTROLLER ENGINE -->
+  <script>
+    let currentIdx = 0;
+    const totalSlides = 5;
+
+    function showSlide(idx) {
+      document.querySelectorAll('.slider-img').forEach(el => el.classList.remove('active'));
+      const activeSlide = document.getElementById('slide-' + idx);
+      if (activeSlide) activeSlide.classList.add('active');
+    }
+
+    function nextSlide() {
+      currentIdx = (currentIdx + 1) % totalSlides;
+      showSlide(currentIdx);
+    }
+
+    function prevSlide() {
+      currentIdx = (currentIdx - 1 + totalSlides) % totalSlides;
+      showSlide(currentIdx);
+    }
+
+    // Auto rotate every 5 seconds
+    setInterval(nextSlide, 5000);
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+service 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Solutions | O G Powers (IND) Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Home</a>
+        <a href="services.html" class="text-emerald-400">Solar Solutions</a>
+        <a href="portfolio.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Completed Projects</a>
+        <a href="partner.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Become a Dealer</a>
+        <a href="contact.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-md">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow py-16 px-4 max-w-6xl mx-auto w-full">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-black text-slate-900">Commercial & Residential System Variants</h2>
+      <p class="text-slate-600 mt-2 max-w-2xl mx-auto">Engineered to eliminate monthly operational overheads for high-load machinery, local market storefronts, and domestic roofs.</p>
+    </div>
+
+    <!-- CORE CHANNELS GRID -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-emerald-500 bg-emerald-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Best for Market Shops</span>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2"><i class="fa-solid fa-circle-nodes text-emerald-400"></i> On-Grid (Net Metered)</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">Direct configuration linking your array layout to regional grids. Features smart bidirectional meters pushing surplus power into supply lines to zero out retail electricity bills.</p>
+        </div>
+        <a href="quotation.html" class="bg-slate-900 text-white text-center font-bold text-sm py-3 rounded-xl hover:bg-slate-800 transition-colors">Calculate Bill Savings</a>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-bold text-blue-500 bg-blue-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Best for Atta Chakki</span>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2"><i class="fa-solid fa-car-battery text-blue-500"></i> Off-Grid (Battery Storage)</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">Complete structural autonomy backed by heavy industrial battery containment setups. Engineered to provide raw, uncompromised power profiles for motor drives and local industry sites.</p>
+        </div>
+        <a href="quotation.html" class="bg-slate-900 text-white text-center font-bold text-sm py-3 rounded-xl hover:bg-slate-800 transition-colors">Configure Battery Setup</a>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-emerald-200 bg-emerald-50/10 flex flex-col justify-between relative">
+        <span class="absolute top-4 right-4 bg-emerald-400 text-slate-950 font-extrabold text-[10px] px-2.5 py-1 rounded uppercase tracking-wider">PM Surya Ghar</span>
+        <div>
+          <span class="text-xs font-bold text-amber-600 bg-amber-50 px-2.5 py-1 rounded-full uppercase tracking-wider mb-3 inline-block">Direct Subsidies</span>
+          <h3 class="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2"><i class="fa-solid fa-landmark text-amber-600"></i> Government Subsidized</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">Clean processing pipeline under current national schemes. We manage all application steps, technical DISCOM checks, and layout approvals to secure payouts smoothly.</p>
+        </div>
+        <a href="quotation.html" class="bg-emerald-400 text-slate-950 text-center font-black text-sm py-3 rounded-xl hover:bg-emerald-500 transition-colors">Claim National Subsidy</a>
+      </div>
+    </div>
+
+    <!-- TRANSPARENT PROCESS MILESTONES -->
+    <div class="bg-slate-900 text-white rounded-3xl p-8 md:p-12">
+      <h3 class="text-2xl font-black text-center mb-8">Our 4-Step Secure Process (No Hidden Tricks)</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="p-4 border border-slate-800 rounded-xl bg-slate-950/40">
+          <div class="w-10 h-10 bg-emerald-500/10 text-emerald-400 font-bold rounded-full flex items-center justify-center mx-auto mb-3">1</div>
+          <h4 class="font-bold text-base">Site Validation</h4>
+          <p class="text-xs text-slate-400 mt-1">Our engineers check your space and machinery layout physically.</p>
+        </div>
+        <div class="p-4 border border-slate-800 rounded-xl bg-slate-950/40">
+          <div class="w-10 h-10 bg-emerald-500/10 text-emerald-400 font-bold rounded-full flex items-center justify-center mx-auto mb-3">2</div>
+          <h4 class="font-bold text-base">Pure Materials Only</h4>
+          <p class="text-xs text-slate-400 mt-1">Genuine components from top brands like Loom Solar, with verified serial codes.</p>
+        </div>
+        <div class="p-4 border border-slate-800 rounded-xl bg-slate-950/40">
+          <div class="w-10 h-10 bg-emerald-500/10 text-emerald-400 font-bold rounded-full flex items-center justify-center mx-auto mb-3">3</div>
+          <h4 class="font-bold text-base">Portal Execution</h4>
+          <p class="text-xs text-slate-400 mt-1">We handle your official DISCOM and net-meter paperwork completely.</p>
+        </div>
+        <div class="p-4 border border-slate-800 rounded-xl bg-slate-950/40">
+          <div class="w-10 h-10 bg-emerald-500/10 text-emerald-400 font-bold rounded-full flex items-center justify-center mx-auto mb-3">4</div>
+          <h4 class="font-bold text-base">Doorstep Warranty</h4>
+          <p class="text-xs text-slate-400 mt-1">5-year system warranty with standard localized home-visit service support.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p>&copy; 2026 O G Powers (IND) Pvt Ltd. All Rights Reserved.</p>
+      <div class="flex space-x-4 text-base"><a href="https://www.facebook.com/profile.php?id=100075930146756" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a><a href="https://www.youtube.com/@ogpowers9386" target="_blank" class="hover:text-red-500"><i class="fa-brands fa-youtube"></i></a></div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+portfolio 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Completed Projects | O G Powers (IND) Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Home</a>
+        <a href="services.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Solar Solutions</a>
+        <a href="portfolio.html" class="text-emerald-400">Completed Projects</a>
+        <a href="partner.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Become a Dealer</a>
+        <a href="contact.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-md">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow py-16 px-4 max-w-6xl mx-auto w-full">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-black text-slate-900">Proven On-Site Implementations</h2>
+      <p class="text-slate-600 mt-2 max-w-2xl mx-auto">Real, functioning infrastructure setups verified across Bihar and Jharkhand locations with transparent parameter metrics.</p>
+    </div>
+
+    <!-- FILTERABLE EXAMPLES ARCHIVE -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Atta Chakki Case Profile -->
+      <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between">
+        <div class="p-6 md:p-8">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <span class="text-[10px] font-extrabold text-blue-600 bg-blue-50 px-2 py-0.5 rounded uppercase tracking-wider">High Load Industrial</span>
+              <h3 class="text-xl font-black text-slate-900 mt-1">15kW Heavy Motor Atta Chakki Array</h3>
+              <p class="text-xs text-slate-500 mt-0.5"><i class="fa-solid fa-location-dot"></i> Near Ranchi Highway Route, JH</p>
+            </div>
+            <span class="bg-slate-900 text-white text-[11px] font-bold px-2.5 py-1 rounded">Off-Grid</span>
+          </div>
+          <div class="grid grid-cols-3 gap-2 bg-slate-50 p-4 rounded-2xl mb-4 text-center text-xs">
+            <div><p class="text-slate-400 uppercase font-bold text-[9px]">Capacity</p><p class="font-extrabold text-slate-800 text-sm">15 kW</p></div>
+            <div><p class="text-slate-400 uppercase font-bold text-[9px]">Load Served</p><p class="font-extrabold text-slate-800 text-sm">10HP Drive</p></div>
+            <div><p class="text-slate-400 uppercase font-bold text-[9px]">Hardware</p><p class="font-extrabold text-slate-800 text-sm">Mono Crystalline</p></div>
+          </div>
+          <blockquote class="text-sm italic text-slate-600 border-l-4 border-blue-500 pl-4 py-1 bg-slate-50/50 rounded-r-lg">
+            "Running a high-load commercial mill on generator power was draining our profits. O G Powers built a custom high-voltage system that drives our heavy equipment smoothly on clear days without relying on the grid."
+          </blockquote>
+        </div>
+        <div class="bg-slate-900 text-slate-400 px-6 py-3 text-xs font-bold flex justify-between items-center">
+          <span>Verified Commercial Project Setup</span>
+          <span class="text-emerald-400"><i class="fa-solid fa-square-check"></i> Genuine Client</span>
+        </div>
+      </div>
+
+      <!-- Retail Market Storefront Profile -->
+      <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm flex flex-col justify-between">
+        <div class="p-6 md:p-8">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <span class="text-[10px] font-extrabold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded uppercase tracking-wider">Market Commercial</span>
+              <h3 class="text-xl font-black text-slate-900 mt-1">5kW Commercial Market Shop Setup</h3>
+              <p class="text-xs text-slate-500 mt-0.5"><i class="fa-solid fa-location-dot"></i> Main Market Area, Patna, BR</p>
+            </div>
+            <span class="bg-emerald-400 text-slate-950 text-[11px] font-black px-2.5 py-1 rounded">On-Grid</span>
+          </div>
+          <div class="grid grid-cols-3 gap-2 bg-slate-50 p-4 rounded-2xl mb-4 text-center text-xs">
+            <div><p class="text-slate-400 uppercase font-bold text-[9px]">Capacity</p><p class="font-extrabold text-slate-800 text-sm">5 kW</p></div>
+            <div><p class="text-slate-400 uppercase font-bold text-[9px]">Net-Meter</p><p class="font-extrabold text-slate-800 text-sm">SBPDCL Sync</p></div>
+            <div><p class="text-slate-400 uppercase font-bold text-[9px]">Subsidy</p><p class="font-extrabold text-slate-800 text-sm">Direct Bank Transfer</p></div>
+          </div>
+          <blockquote class="text-sm italic text-slate-600 border-l-4 border-emerald-400 pl-4 py-1 bg-slate-50/50 rounded-r-lg">
+            "We wanted to cut down our shop's heavy air conditioning and commercial lighting bills. Their team handled everything transparently, including the net-meter synchronization. Our electricity bills dropped significantly."
+          </blockquote>
+        </div>
+        <div class="bg-slate-900 text-slate-400 px-6 py-3 text-xs font-bold flex justify-between items-center">
+          <span>Verified Retail Storefront Setup</span>
+          <span class="text-emerald-400"><i class="fa-solid fa-square-check"></i> Genuine Client</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p>&copy; 2026 O G Powers (IND) Pvt Ltd. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+question 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get a Quote | O G Powers (IND) Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Home</a>
+        <a href="services.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Solar Solutions</a>
+        <a href="portfolio.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Completed Projects</a>
+        <a href="partner.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Become a Dealer</a>
+        <a href="contact.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow py-16 px-4 max-w-4xl mx-auto w-full">
+    <div class="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden grid grid-cols-1 md:grid-cols-12">
+      
+      <!-- Input Panel Forms -->
+      <div class="p-8 md:p-12 md:col-span-7">
+        <h2 class="text-2xl font-black text-slate-900 mb-2">Smart Quote Engine</h2>
+        <p class="text-xs text-slate-500 mb-6">Select your options below to view recommended system metrics and estimated direct-benefit subsidies.</p>
+        
+        <form id="quoteForm" onsubmit="alert('Inquiry logged securely! Our regional engineering rep will call you shortly.'); event.preventDefault();" class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Category Structure</label>
+            <select id="profileType" onchange="toggleQuoteLayout()" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-semibold text-slate-700">
+              <option value="residential">Individual Home / Domestic Roof</option>
+              <option value="commercial">Atta Chakki / Market Business Establishment</option>
+              <option value="dealer">B2B Wholesale Dealer Procurement</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Target Territory State</label>
+            <select id="targetState" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-semibold text-slate-700">
+              <option value="Bihar">Bihar</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Other">Other Neighboring State</option>
+            </select>
+          </div>
+          <div id="billWrapper">
+            <div class="flex justify-between items-center mb-2">
+              <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider">Average Monthly Electricity Cost</label>
+              <span id="billValDisplay" class="text-sm font-black text-emerald-500">₹ 4,550</span>
+            </div>
+            <input type="range" id="monthlyBill" min="1000" max="25000" step="500" value="4550" oninput="calculateSolarMetrics()" class="w-full accent-emerald-500" />
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Your Name</label>
+              <input type="text" required placeholder="Name" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Mobile Number</label>
+              <input type="tel" required placeholder="10-digit number" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500" />
+            </div>
+          </div>
+          <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-extrabold p-4 rounded-xl text-sm uppercase tracking-wide transition-colors">
+            Submit Layout Configuration
+          </button>
+        </form>
+      </div>
+
+      <!-- Live Calculated Output Summary Panel -->
+      <div class="bg-slate-900 text-white p-8 md:p-12 md:col-span-5 flex flex-col justify-between relative">
+        <div id="calculatorOutputs" class="space-y-6">
+          <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest">Calculated Allocation</h3>
+          <div>
+            <p class="text-xs text-slate-400">Recommended Array Sizing</p>
+            <p id="outCapacity" class="text-3xl font-black text-white mt-1">3.0 <span class="text-lg font-normal text-slate-400">kW</span></p>
+          </div>
+          <div>
+            <p class="text-xs text-slate-400">Est. Central Government Subsidy (DBT)</p>
+            <p id="outSubsidy" class="text-3xl font-black text-emerald-400 mt-1">₹ 78,000</p>
+          </div>
+        </div>
+        <div id="dealerNotice" class="hidden space-y-4 my-auto">
+          <div class="w-10 h-10 bg-emerald-500/10 text-emerald-400 rounded-full flex items-center justify-center text-lg"><i class="fa-solid fa-tags"></i></div>
+          <h3 class="text-lg font-bold text-emerald-400">B2B Trade Pricing Enabled</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Standard consumer metric calculations are bypassed for wholesale buyers. Custom slab discounts will be provided directly based on your order size.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    function toggleQuoteLayout() {
+      const pType = document.getElementById('profileType').value;
+      const bWrapper = document.getElementById('billWrapper');
+      const calcOutputs = document.getElementById('calculatorOutputs');
+      const dealerNotice = document.getElementById('dealerNotice');
+      if (pType === 'dealer') {
+        bWrapper.style.opacity = '0.2'; bWrapper.style.pointerEvents = 'none';
+        calcOutputs.classList.add('hidden'); dealerNotice.classList.remove('hidden');
+      } else {
+        bWrapper.style.opacity = '1'; bWrapper.style.pointerEvents = 'auto';
+        calcOutputs.classList.remove('hidden'); dealerNotice.classList.add('hidden');
+        calculateSolarMetrics();
+      }
+    }
+    function calculateSolarMetrics() {
+      const bill = parseInt(document.getElementById('monthlyBill').value);
+      document.getElementById('billValDisplay').innerText = '₹ ' + bill.toLocaleString('en-IN');
+      let kw = 1.0; let subsidy = 30000;
+      if (bill > 2000 && bill <= 4500) { kw = 2.0; subsidy = 60000; }
+      else if (bill > 4500) { kw = Math.min(3.0 + ((bill - 4500) / 1500), 12.0); subsidy = 78000; }
+      document.getElementById('outCapacity').innerHTML = kw.toFixed(1) + ' <span class="text-lg font-normal text-slate-400">kW</span>';
+      document.getElementById('outSubsidy').innerText = '₹ ' + subsidy.toLocaleString('en-IN');
+    }
+    calculateSolarMetrics();
+  </script>
+</body>
+</html>
+
+
+
+partner 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become a Partner | O G Powers (IND) Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Home</a>
+        <a href="services.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Solar Solutions</a>
+        <a href="portfolio.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Completed Projects</a>
+        <a href="partner.html" class="text-emerald-400">Become a Dealer</a>
+        <a href="contact.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-md">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow py-16 px-4 max-w-3xl mx-auto w-full">
+    <div class="bg-white p-8 md:p-12 rounded-3xl border border-slate-200 shadow-sm">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-black text-slate-900">Join Our B2B Distribution Network</h2>
+        <p class="text-slate-600 mt-1">Get priority access to bulk inventory, genuine factory warranties, and pre-qualified leads in your district.</p>
+      </div>
+      <form onsubmit="alert('Trade application filed securely! Our network desk will reach out within 24 hours.'); event.preventDefault();" class="space-y-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Registered Entity Name</label>
+            <input type="text" required placeholder="e.g., Balaji Electricals" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-medium" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">GSTIN Identifier (Optional)</label>
+            <input type="text" placeholder="10AAAAA0000A1Z5" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 uppercase font-medium tracking-wider" />
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Target District / Territory of Operation</label>
+          <input type="text" required placeholder="e.g., Gaya, Hazaribagh, Dhanbad, Muzaffarpur" class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-medium" />
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Target Monthly Procurement Capacity</label>
+          <select class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-semibold text-slate-700">
+            <option>Baseline Dealer (Below 15 kW / Month)</option>
+            <option>Volume Partner (15 kW to 75 kW / Month)</option>
+            <option>Mega Distributor (Above 75 kW / Month)</option>
+          </select>
+        </div>
+        <button type="submit" class="w-full bg-emerald-400 hover:bg-emerald-500 text-slate-950 font-black p-4 rounded-xl text-sm uppercase tracking-wide transition-colors shadow-md">
+          Submit Channel Partner Registration
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p>&copy; 2026 O G Powers (IND) Pvt Ltd. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+contact 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | O G Powers (IND) Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Home</a>
+        <a href="services.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Solar Solutions</a>
+        <a href="portfolio.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Completed Projects</a>
+        <a href="partner.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Become a Dealer</a>
+        <a href="contact.html" class="text-emerald-400">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-md">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow py-16 px-4 max-w-5xl mx-auto w-full">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+      
+      <!-- Left Info Block Details -->
+      <div class="md:col-span-5 bg-slate-900 text-white p-8 rounded-3xl flex flex-col justify-between shadow-xl">
+        <div>
+          <h2 class="text-2xl font-black mb-4 text-emerald-400">Verified Office Info</h2>
+          <p class="text-sm text-slate-400 leading-relaxed mb-6">Connect directly with our regional distribution desks for project approvals or stock procurement updates.</p>
+          <div class="space-y-4 text-sm">
+            <div class="flex items-start gap-3">
+              <i class="fa-solid fa-map-location-dot text-emerald-400 mt-1 text-base"></i>
+              <div>
+                <p class="font-bold text-base">O G Powers (IND) Pvt Ltd</p>
+                <p class="text-xs text-slate-400 mt-1">Khiryama Bazar, Gaya-Bodhgaya Road, Near HP Gas Agency, Gaya, Bihar - 824231</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-envelope text-emerald-400 text-base"></i>
+              <p class="text-xs text-slate-400 font-semibold">inforogpowers@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Highly Converting WhatsApp Action Anchor Hook -->
+        <div class="pt-6 border-t border-slate-800">
+          <a href="https://wa.me/917992301277" target="_blank" class="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white p-3.5 rounded-xl text-xs font-black uppercase tracking-wider transition-colors w-full shadow-md">
+            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Support Channel
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Message Block Form Interface -->
+      <div class="md:col-span-7 bg-white p-8 rounded-3xl border border-slate-200 shadow-sm">
+        <h3 class="text-lg font-black text-slate-900 mb-4">Send an Electronic Inquiry</h3>
+        <form onsubmit="alert('Your message was saved successfully!'); event.preventDefault();" class="space-y-4">
+          <div class="grid grid-cols-2 gap-4">
+            <input type="text" placeholder="Name" required class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-medium" />
+            <input type="email" placeholder="Email Address" required class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-medium" />
+          </div>
+          <input type="text" placeholder="Subject Topic" required class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-medium" />
+          <textarea rows="4" placeholder="Describe your structural metrics, mill machinery layout, or procurement needs..." required class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-sm focus:outline-none focus:border-emerald-500 font-medium"></textarea>
+          <button type="submit" class="bg-slate-900 hover:bg-slate-800 text-white font-extrabold px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider transition-colors shadow-md">
+            Send Message Securely
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p>&copy; 2026 O G Powers (IND) Pvt Ltd. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+service 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Solutions & Services | O G Powers (IND) Pvt Ltd</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <div class="flex flex-col cursor-pointer" onclick="window.location.href='index.html'">
+        <span class="text-xl font-black text-emerald-400 tracking-wide">O G POWERS</span>
+        <span class="text-xs tracking-widest text-slate-400 font-bold uppercase">(IND) PVT LTD</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-semibold tracking-wide">
+        <a href="index.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Home</a>
+        <a href="services.html" class="text-emerald-400">Solar Solutions</a>
+        <a href="portfolio.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Completed Projects</a>
+        <a href="partner.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Become a Dealer</a>
+        <a href="contact.html" class="text-slate-300 hover:text-emerald-400 transition-colors">Contact Us</a>
+      </nav>
+      <div>
+        <a href="quotation.html" class="bg-emerald-400 hover:bg-emerald-500 text-slate-950 px-5 py-2.5 rounded-lg font-bold text-sm tracking-wide transition-all shadow-md">Get Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN SERVICES CONTENT -->
+  <main class="flex-grow py-16 px-4 max-w-6xl mx-auto w-full">
+    <div class="text-center mb-16">
+      <span class="text-xs font-bold text-emerald-600 bg-emerald-100 px-3 py-1.5 rounded-full uppercase tracking-wider">What We Offer</span>
+      <h2 class="text-3xl md:text-5xl font-black text-slate-900 mt-3">Our Core Solar Solutions</h2>
+      <p class="text-slate-600 mt-3 max-w-2xl mx-auto text-base">We design and install heavy-duty solar setups built to handle high power demands and lower operational costs for local businesses.</p>
+    </div>
+
+    <!-- SERVICES COMPARISON CARDS -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+      
+      <!-- Service 1: On-Grid -->
+      <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition-shadow">
+        <div>
+          <div class="w-12 h-12 bg-emerald-100 text-emerald-500 rounded-2xl flex items-center justify-center mb-6 text-xl">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">On-Grid Solar Systems</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-6">
+            Connected directly to your local government grid lines (SBPDCL/NBPDCL/JBVNL). Includes a bidirectional net-meter that routes extra electricity back to the grid to reduce or zero out your monthly bill. Ideal for retail shops, offices, and urban homes.
+          </p>
+        </div>
+        <a href="quotation.html" class="w-full bg-slate-900 hover:bg-slate-800 text-white text-center font-bold text-sm py-3.5 rounded-xl transition-colors">Calculate Bill Savings</a>
+      </div>
+
+      <!-- Service 2: Off-Grid -->
+      <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 flex flex-col justify-between hover:shadow-md transition-shadow">
+        <div>
+          <div class="w-12 h-12 bg-blue-100 text-blue-500 rounded-2xl flex items-center justify-center mb-6 text-xl">
+            <i class="fa-solid fa-car-battery"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">Off-Grid Solar Systems</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-6">
+            Completely independent standalone setup equipped with high-capacity industrial backup batteries. Perfect for rural locations facing power instability, and heavy-duty motor machinery like Atta Chakki mills that need dedicated power uptime.
+          </p>
+        </div>
+        <a href="quotation.html" class="w-full bg-slate-900 hover:bg-slate-800 text-white text-center font-bold text-sm py-3.5 rounded-xl transition-colors">Configure Battery Backup</a>
+      </div>
+
+      <!-- Service 3: Subsidy Integration -->
+      <div class="bg-white p-8 rounded-3xl shadow-sm border border-emerald-200 bg-emerald-50/10 flex flex-col justify-between relative hover:shadow-md transition-shadow">
+        <span class="absolute top-4 right-4 bg-emerald-400 text-slate-950 font-black text-[10px] px-2.5 py-1 rounded-full uppercase tracking-wider">Govt Portal Authorized</span>
+        <div>
+          <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mb-6 text-xl">
+            <i class="fa-solid fa-landmark"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-slate-900 mb-3">PM Surya Ghar Subsidy</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-6">
+            We handle the end-to-end processing for the national rooftop solar subsidy scheme. From portal registration and structural inspections to DISCOM coordination, we make sure your financial subsidy gets credited directly to your bank account safely.
+          </p>
+        </div>
+        <a href="quotation.html" class="w-full bg-emerald-400 hover:bg-emerald-500 text-slate-950 text-center font-black text-sm py-3.5 rounded-xl transition-colors">Apply For Govt Subsidy</a>
+      </div>
+    </div>
+
+    <!-- EASY CUSTOMER GUIDE: LOAD MATCHING TABLE -->
+    <div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-12 shadow-sm mb-16">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <h3 class="text-2xl md:text-3xl font-black text-slate-900">Which Solar Setup Fits Your Work?</h3>
+        <p class="text-sm text-slate-500 mt-1">A quick guide to finding the right setup for your power requirements.</p>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse min-w-[600px]">
+          <thead>
+            <tr class="border-b border-slate-200 text-xs font-black uppercase text-slate-400 tracking-wider">
+              <th class="pb-4">Your Setup Type</th>
+              <th class="pb-4">Typical Machinery / Appliances</th>
+              <th class="pb-4">Recommended Capacity</th>
+              <th class="pb-4 text-right">Ideal System</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 text-sm font-medium text-slate-700">
+            <tr>
+              <td class="py-4 font-bold text-slate-900">Small Local Shop / Store</td>
+              <td class="py-4 text-slate-500">Inverter, Fans, Lights, Billing Computer</td>
+              <td class="py-4 text-emerald-600 font-bold">1 kW – 2 kW</td>
+              <td class="py-4 text-right font-bold">On-Grid (Subsidized)</td>
+            </tr>
+            <tr>
+              <td class="py-4 font-bold text-slate-900">Medium Retail Shop / Showroom</td>
+              <td class="py-4 text-slate-500">1.5 Ton AC, Display Lights, Refrigerator</td>
+              <td class="py-4 text-emerald-600 font-bold">3 kW – 5 kW</td>
+              <td class="py-4 text-right font-bold">On-Grid / Hybrid</td>
+            </tr>
+            <tr>
+              <td class="py-4 font-bold text-slate-900">Small Atta Chakki / Mini-Mill</td>
+              <td class="py-4 text-slate-500">5HP to 7.5HP Motor, Small Machinery</td>
+              <td class="py-4 text-emerald-600 font-bold">7.5 kW – 10 kW</td>
+              <td class="py-4 text-right font-bold">Off-Grid (High Backup)</td>
+            </tr>
+            <tr>
+              <td class="py-4 font-bold text-slate-900">Commercial Atta Chakki Mill</td>
+              <td class="py-4 text-slate-500">10HP+ Motor Heavy Production Crusher</td>
+              <td class="py-4 text-emerald-600 font-bold">15 kW – 20 kW</td>
+              <td class="py-4 text-right font-bold">Off-Grid / Heavy Duty Drive</td>
+            </tr>
+            <tr>
+              <td class="py-4 font-bold text-slate-900">Standard Individual House</td>
+              <td class="py-4 text-slate-500">TV, Refrigerator, Water Pump, Fans</td>
+              <td class="py-4 text-emerald-600 font-bold">3 kW</td>
+              <td class="py-4 text-right font-bold">On-Grid (Max Subsidy)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TRUST & AFTER-DELIVERY CARE SERVICE SECTION -->
+    <div class="bg-slate-900 text-white rounded-3xl p-8 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <span class="text-xs font-bold text-emerald-400 bg-emerald-50/10 px-2.5 py-1 rounded-full uppercase tracking-widest mb-3 inline-block">Real Support Commitment</span>
+        <h3 class="text-2xl md:text-4xl font-black mb-4">Complete Post-Delivery Service <br class="hidden md:inline"/>Right at Your Doorstep</h3>
+        <p class="text-sm text-slate-400 leading-relaxed mb-6">
+          We don't leave after installation. O G Powers provides a comprehensive 5-year system warranty setup. If your array output drops or your net-meter flags an issue, our local on-field technical teams will visit your property directly to tune your generation.
+        </p>
+        <div class="flex items-center gap-3 text-sm text-emerald-400 font-bold">
+          <i class="fa-solid fa-user-shield text-xl"></i>
+          <span>100% Secure Investment — No Fraud Portals Used</span>
+        </div>
+      </div>
+      <div class="bg-slate-850 border border-slate-800 p-6 md:p-8 rounded-2xl space-y-4">
+        <h4 class="text-lg font-bold text-white mb-2">Every Installation Includes:</h4>
+        <div class="flex items-start gap-3 text-xs md:text-sm">
+          <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+          <p><span class="font-bold text-white">Genuine Brand Sourcing:</span> Authorized supply chains including top tier brands like Loom Solar modules.</p>
+        </div>
+        <div class="flex items-start gap-3 text-xs md:text-sm">
+          <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+          <p><span class="font-bold text-white">DISCOM Application Handling:</span> Full filing management across NBPDCL, SBPDCL, and JBVNL pipelines.</p>
+        </div>
+        <div class="flex items-start gap-3 text-xs md:text-sm">
+          <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+          <p><span class="font-bold text-white">Physical Structural Checkups:</span> On-site alignment analysis to ensure robust wind protection profiles.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p>&copy; 2026 O G Powers (IND) Pvt Ltd. All Rights Reserved.</p>
+      <div class="flex space-x-4 text-base">
+        <a href="https://www.facebook.com/profile.php?id=100075930146756" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@ogpowers9386" target="_blank" class="hover:text-red-500"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
